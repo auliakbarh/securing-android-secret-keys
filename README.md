@@ -5,12 +5,12 @@ In this repository, I tried some methods and tried to build the app then examine
 ## [Source #1](https://guides.codepath.com/android/storing-secret-keys-in-android)
 
 
-| method                               | branch                                                                                                               |  verdict  |
-|:-------------------------------------|:---------------------------------------------------------------------------------------------------------------------|:---------:|
-| Hidden in BuildConfigs               | [hidden-in-build-configs](https://github.com/auliakbarh/securing-android-secret-keys/tree/hidden-in-build-configs)   |    :x:    |
-| Secrets in Resource Files            | [secrets-in-resource-file](https://github.com/auliakbarh/securing-android-secret-keys/tree/secrets-in-resource-file) |    :x:    |
-| Secrets in native libraries with NDK |                                                                                                                      |           |
-| Using the Android Keystore API       |                                                                                                                      |           |
+| method                               | branch                                                                                                                       |      verdict       |
+|:-------------------------------------|:-----------------------------------------------------------------------------------------------------------------------------|:------------------:|
+| Hidden in BuildConfigs               | [hidden-in-build-configs](https://github.com/auliakbarh/securing-android-secret-keys/tree/hidden-in-build-configs)           |        :x:         |
+| Secrets in Resource Files            | [secrets-in-resource-file](https://github.com/auliakbarh/securing-android-secret-keys/tree/secrets-in-resource-file)         |        :x:         |
+| Secrets in native libraries with NDK | [hidden-secrets-gradle-plugin](https://github.com/auliakbarh/securing-android-secret-keys/tree/hidden-secrets-gradle-plugin) | :white_check_mark: |
+| Using the Android Keystore API       |                                                                                                                              |                    |
 
 ## [Source #2](https://medium.com/@maydin/3-ways-to-secure-secret-keys-in-android-ccd9adaadb82)
 
