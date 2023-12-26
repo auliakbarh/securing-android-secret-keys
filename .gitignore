@@ -17,3 +17,5 @@ local.properties
 apikey.properties
 upload.keystore
 secrets.md
+app/src/main/res/values/secrets.xml
+/secrets.xml.md
