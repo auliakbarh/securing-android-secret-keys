@@ -5,10 +5,6 @@
   ],
   "treeExpansions": [
     [
-      "Resources",
-      "app-release.apk"
-    ],
-    [
       "com",
       "Source code",
       "app-release.apk"
@@ -20,32 +16,12 @@
       "app-release.apk"
     ],
     [
-      "com.example.secureapp.R",
-      "example.secureapp",
-      "com",
       "Source code",
       "app-release.apk"
     ],
     [
-      "google.common.util.concurrent",
-      "com",
+      "com.example.secureapp",
       "Source code",
-      "app-release.apk"
-    ],
-    [
-      "resources.arsc",
-      "Resources",
-      "app-release.apk"
-    ],
-    [
-      "assets",
-      "Resources",
-      "app-release.apk"
-    ],
-    [
-      "dexopt",
-      "assets",
-      "Resources",
       "app-release.apk"
     ]
   ],
@@ -56,67 +32,20 @@
   "openTabs": [
     {
       "type": "class",
-      "tabPath": "com.example.secureapp.MainActivity",
-      "subPath": "java",
-      "caret": 786,
-      "view": {
-        "x": 0,
-        "y": 0
-      }
-    },
-    {
-      "type": "class",
       "tabPath": "com.example.secureapp.MainActivityKt",
       "subPath": "java",
-      "caret": 2459,
-      "view": {
-        "x": 12,
-        "y": 344
-      }
-    },
-    {
-      "type": "resource",
-      "tabPath": "DebugProbesKt.bin",
-      "subPath": "",
-      "caret": 0,
+      "caret": 312,
       "view": {
         "x": 0,
-        "y": 0
-      }
-    },
-    {
-      "type": "resource",
-      "tabPath": "kotlin-tooling-metadata.json",
-      "subPath": "",
-      "caret": 0,
-      "view": {
-        "x": 0,
-        "y": 0
-      }
-    },
-    {
-      "type": "resource",
-      "tabPath": "AndroidManifest.xml",
-      "subPath": "",
-      "caret": 0,
-      "view": {
-        "x": 0,
-        "y": 0
-      }
-    },
-    {
-      "type": "class",
-      "tabPath": "com.example.secureapp.R",
-      "subPath": "java",
-      "caret": 121,
-      "view": {
-        "x": 0,
-        "y": 0
+        "y": 18
       }
     }
   ],
-  "activeTab": 6,
+  "activeTab": 0,
   "cacheDir": "app-release.apk.cache",
   "enableLiveReload": false,
-  "searchHistory": []
+  "searchHistory": [
+    "baseUrl",
+    "apiKey"
+  ]
 }

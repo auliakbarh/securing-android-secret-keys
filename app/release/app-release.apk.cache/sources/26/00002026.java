@@ -1,35 +1,37 @@
 package com.example.secureapp;
 
-import androidx.autofill.HintConstants;
 import androidx.compose.runtime.Composer;
 import androidx.compose.runtime.ComposerKt;
 import androidx.compose.runtime.RecomposeScopeImplKt;
 import androidx.compose.runtime.ScopeUpdateScope;
-import com.example.secureapp.ui.theme.ThemeKt;
+import com.example.secureapp.p006ui.theme.Theme;
 import kotlin.Metadata;
 import kotlin.Unit;
 import kotlin.jvm.functions.Function2;
 
 /* compiled from: MainActivity.kt */
-@Metadata(d1 = {"\u0000\u0016\n\u0000\n\u0002\u0010\u0002\n\u0000\n\u0002\u0010\u000e\n\u0000\n\u0002\u0018\u0002\n\u0002\b\u0004\u001a\u001f\u0010\u0000\u001a\u00020\u00012\u0006\u0010\u0002\u001a\u00020\u00032\b\b\u0002\u0010\u0004\u001a\u00020\u0005H\u0007¢\u0006\u0002\u0010\u0006\u001a\r\u0010\u0007\u001a\u00020\u0001H\u0007¢\u0006\u0002\u0010\b¨\u0006\t"}, d2 = {"Greeting", "", HintConstants.AUTOFILL_HINT_NAME, "", "modifier", "Landroidx/compose/ui/Modifier;", "(Ljava/lang/String;Landroidx/compose/ui/Modifier;Landroidx/compose/runtime/Composer;II)V", "GreetingPreview", "(Landroidx/compose/runtime/Composer;I)V", "app_release"}, k = 2, mv = {1, 9, 0}, xi = 48)
+@Metadata(m27d1 = {"\u0000\u0018\n\u0000\n\u0002\u0010\u0002\n\u0000\n\u0002\u0010\u000e\n\u0002\b\u0002\n\u0002\u0018\u0002\n\u0002\b\u0004\u001a'\u0010\u0000\u001a\u00020\u00012\u0006\u0010\u0002\u001a\u00020\u00032\u0006\u0010\u0004\u001a\u00020\u00032\b\b\u0002\u0010\u0005\u001a\u00020\u0006H\u0007¢\u0006\u0002\u0010\u0007\u001a\r\u0010\b\u001a\u00020\u0001H\u0007¢\u0006\u0002\u0010\t¨\u0006\n"}, m26d2 = {"Greeting", "", "apiKey", "", "baseUrl", "modifier", "Landroidx/compose/ui/Modifier;", "(Ljava/lang/String;Ljava/lang/String;Landroidx/compose/ui/Modifier;Landroidx/compose/runtime/Composer;II)V", "GreetingPreview", "(Landroidx/compose/runtime/Composer;I)V", "app_release"}, m25k = 2, m24mv = {1, 9, 0}, m22xi = 48)
 /* loaded from: classes.dex */
 public final class MainActivityKt {
-    /* JADX WARN: Removed duplicated region for block: B:31:0x0061  */
-    /* JADX WARN: Removed duplicated region for block: B:32:0x0068  */
-    /* JADX WARN: Removed duplicated region for block: B:35:0x0070  */
-    /* JADX WARN: Removed duplicated region for block: B:38:0x00bd  */
-    /* JADX WARN: Removed duplicated region for block: B:43:0x00c9  */
-    /* JADX WARN: Removed duplicated region for block: B:45:? A[RETURN, SYNTHETIC] */
+    /* JADX WARN: Removed duplicated region for block: B:41:0x007d  */
+    /* JADX WARN: Removed duplicated region for block: B:42:0x0084  */
+    /* JADX WARN: Removed duplicated region for block: B:45:0x008c  */
+    /* JADX WARN: Removed duplicated region for block: B:48:0x00d7  */
+    /* JADX WARN: Removed duplicated region for block: B:51:0x00e3  */
+    /* JADX WARN: Removed duplicated region for block: B:52:0x00e7  */
+    /* JADX WARN: Removed duplicated region for block: B:60:0x01d5  */
+    /* JADX WARN: Removed duplicated region for block: B:65:0x01e1  */
+    /* JADX WARN: Removed duplicated region for block: B:67:? A[RETURN, SYNTHETIC] */
     /*
         Code decompiled incorrectly, please refer to instructions dump.
         To view partially-correct code enable 'Show inconsistent code' option in preferences
     */
-    public static final void Greeting(final java.lang.String r30, androidx.compose.ui.Modifier r31, androidx.compose.runtime.Composer r32, final int r33, final int r34) {
+    public static final void Greeting(final java.lang.String r56, final java.lang.String r57, androidx.compose.p002ui.Modifier r58, androidx.compose.runtime.Composer r59, final int r60, final int r61) {
         /*
-            Method dump skipped, instructions count: 212
+            Method dump skipped, instructions count: 502
             To view this dump change 'Code comments level' option to 'DEBUG'
         */
-        throw new UnsupportedOperationException("Method not decompiled: com.example.secureapp.MainActivityKt.Greeting(java.lang.String, androidx.compose.ui.Modifier, androidx.compose.runtime.Composer, int, int):void");
+        throw new UnsupportedOperationException("Method not decompiled: com.example.secureapp.MainActivityKt.Greeting(java.lang.String, java.lang.String, androidx.compose.ui.Modifier, androidx.compose.runtime.Composer, int, int):void");
     }
 
     public static final void GreetingPreview(Composer composer, final int i) {
@@ -37,9 +39,9 @@ public final class MainActivityKt {
         ComposerKt.sourceInformation(startRestartGroup, "C(GreetingPreview)");
         if (i != 0 || !startRestartGroup.getSkipping()) {
             if (ComposerKt.isTraceInProgress()) {
-                ComposerKt.traceEventStart(5092350, i, -1, "com.example.secureapp.GreetingPreview (MainActivity.kt:38)");
+                ComposerKt.traceEventStart(5092350, i, -1, "com.example.secureapp.GreetingPreview (MainActivity.kt:47)");
             }
-            ThemeKt.SecureAppTheme(false, false, ComposableSingletons$MainActivityKt.INSTANCE.m5153getLambda4$app_release(), startRestartGroup, 384, 3);
+            Theme.SecureAppTheme(false, false, ComposableSingletons$MainActivityKt.INSTANCE.m5214getLambda1$app_release(), startRestartGroup, 384, 3);
             if (ComposerKt.isTraceInProgress()) {
                 ComposerKt.traceEventEnd();
             }
