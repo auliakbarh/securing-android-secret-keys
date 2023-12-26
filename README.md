@@ -1,5 +1,7 @@
 # Implementation to hide and secure secrets in Android app
 
+In this repository, I tried some methods and tried to build the app then examine the released app with [jadx](https://github.com/skylot/jadx). 
+
 ## [Source #1](https://guides.codepath.com/android/storing-secret-keys-in-android)
 
 
