@@ -1,7 +1,14 @@
+import java.io.FileInputStream
+import java.util.Properties
+
 plugins {
     id("com.android.application")
     id("org.jetbrains.kotlin.android")
 }
+
+var apikeyPropertiesFile = rootProject.file("apikey.properties")
+var apikeyProperties = Properties()
+apikeyProperties.load(FileInputStream(apikeyPropertiesFile))
 
 android {
     namespace = "com.example.secureapp"
@@ -18,6 +25,10 @@ android {
         vectorDrawables {
             useSupportLibrary = true
         }
+
+        // should correspond to key/value pairs inside the file
+        buildConfigField("String", "API_KEY", apikeyProperties.getProperty("API_KEY"))
+        buildConfigField("String", "BASE_URL", apikeyProperties.getProperty("BASE_URL"))
     }
 
     buildTypes {
@@ -35,6 +46,7 @@ android {
     }
     buildFeatures {
         compose = true
+        buildConfig = true
     }
     composeOptions {
         kotlinCompilerExtensionVersion = "1.5.1"

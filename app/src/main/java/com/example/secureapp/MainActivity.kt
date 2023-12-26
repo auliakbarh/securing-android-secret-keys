@@ -3,6 +3,7 @@ package com.example.secureapp
 import android.os.Bundle
 import androidx.activity.ComponentActivity
 import androidx.activity.compose.setContent
+import androidx.compose.foundation.layout.Column
 import androidx.compose.foundation.layout.fillMaxSize
 import androidx.compose.material3.MaterialTheme
 import androidx.compose.material3.Surface
@@ -19,7 +20,7 @@ class MainActivity : ComponentActivity() {
             SecureAppTheme {
                 // A surface container using the 'background' color from the theme
                 Surface(modifier = Modifier.fillMaxSize(), color = MaterialTheme.colorScheme.background) {
-                    Greeting("Android")
+                    Greeting("Default API Key", "Default Base URL")
                 }
             }
         }
@@ -27,17 +28,25 @@ class MainActivity : ComponentActivity() {
 }
 
 @Composable
-fun Greeting(name: String, modifier: Modifier = Modifier) {
-    Text(
-            text = "Hello $name!",
+fun Greeting(apiKey: String, baseUrl: String, modifier: Modifier = Modifier) {
+    Column {
+        Text(
+            text = "Exposing api key: $apiKey",
             modifier = modifier
-    )
+        )
+        Text(
+            text = "Exposing base url: $baseUrl",
+            modifier = modifier
+        )
+    }
 }
 
 @Preview(showBackground = true)
 @Composable
 fun GreetingPreview() {
+    val apiKey: String = BuildConfig.API_KEY
+    val baseUrl: String = BuildConfig.BASE_URL
     SecureAppTheme {
-        Greeting("Android")
+        Greeting(apiKey, baseUrl)
     }
 }
